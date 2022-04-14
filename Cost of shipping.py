@@ -7,9 +7,9 @@ print('-------------------------------')
 while True:
     weight = float(input('Please input package weight: '))
     if weight < 0:
-        print('invalid input')
+        print('invalid input \n')
     elif weight > 20:
-        print('Package cannot be shipped')
+        print('Package cannot be shipped \n')
     else:
         break
 
@@ -21,5 +21,3 @@ elif 3 < weight <= 10:
     print('The shipping cost is $8.5')
 elif 10 < weight <= 20:
     print('The shipping cost is $10.5')
-
-
